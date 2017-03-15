@@ -25,10 +25,10 @@ import (
 	"sync"
 	"testing"
 
-	"go.uber.org/zap/internal/exit"
-	"go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest"
-	"go.uber.org/zap/zaptest/observer"
+	"github.com/GxlZ/zap/internal/exit"
+	"github.com/GxlZ/zap/zapcore"
+	"github.com/GxlZ/zap/zaptest"
+	"github.com/GxlZ/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

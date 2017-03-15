@@ -24,7 +24,7 @@ import (
 	"io"
 	"sync"
 
-	"go.uber.org/zap/internal/multierror"
+	"github.com/GxlZ/zap/internal/multierror"
 )
 
 // A WriteSyncer is an io.Writer that can also flush any buffered data. Note

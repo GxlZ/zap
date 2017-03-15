@@ -22,7 +22,7 @@
 // a single error.
 package multierror
 
-import "go.uber.org/zap/internal/bufferpool"
+import "github.com/GxlZ/zap/internal/bufferpool"
 
 // implement the standard lib's error interface on a private type so that we
 // can't forget to call Error.AsError().

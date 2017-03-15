@@ -20,7 +20,7 @@
 
 package zapcore
 
-import "go.uber.org/zap/internal/multierror"
+import "github.com/GxlZ/zap/internal/multierror"
 
 type multiCore []Core
 

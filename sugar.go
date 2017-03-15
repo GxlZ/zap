@@ -23,8 +23,8 @@ package zap
 import (
 	"fmt"
 
-	"go.uber.org/zap/internal/multierror"
-	"go.uber.org/zap/zapcore"
+	"github.com/GxlZ/zap/internal/multierror"
+	"github.com/GxlZ/zap/zapcore"
 )
 
 const (

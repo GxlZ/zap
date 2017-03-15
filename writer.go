@@ -24,8 +24,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"go.uber.org/zap/internal/multierror"
-	"go.uber.org/zap/zapcore"
+	"github.com/GxlZ/zap/internal/multierror"
+	"github.com/GxlZ/zap/zapcore"
 )
 
 // Open is a high-level wrapper that takes a variadic number of paths, opens or

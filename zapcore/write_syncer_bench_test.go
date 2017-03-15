@@ -23,7 +23,7 @@ package zapcore
 import (
 	"testing"
 
-	"go.uber.org/zap/zaptest"
+	"github.com/GxlZ/zap/zaptest"
 )
 
 func BenchmarkMultiWriteSyncer(b *testing.B) {

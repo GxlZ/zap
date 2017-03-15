@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"go.uber.org/zap"
+	"github.com/GxlZ/zap"
 )
 
 func BenchmarkDisabledWithoutFields(b *testing.B) {

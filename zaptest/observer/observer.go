@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/GxlZ/zap/zapcore"
 )
 
 // An LoggedEntry is an encoding-agnostic representation of a log message.

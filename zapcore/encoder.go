@@ -23,7 +23,7 @@ package zapcore
 import (
 	"time"
 
-	"go.uber.org/zap/buffer"
+	"github.com/GxlZ/zap/buffer"
 )
 
 // A LevelEncoder serializes a Level to a primitive type.
